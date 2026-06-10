@@ -1,0 +1,12 @@
+[project]
+name = "policy-docs-comparison-assitant"
+version = "0.1.0"
+description = "All the notebooks related to application for policy docs comparison assistant"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "ipython>=9.14.1",
+]
