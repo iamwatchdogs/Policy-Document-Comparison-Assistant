@@ -3,10 +3,17 @@ name = "policy-docs-comparison-assitant"
 version = "0.1.0"
 description = "All the notebooks related to application for policy docs comparison assistant"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "docling>=2.101.0",
+    "fastapi>=0.136.3",
+    "msgspec>=0.21.1",
+    "python-multipart>=0.0.32",
+    "uvicorn>=0.49.0",
+]
 
 [dependency-groups]
 dev = [
     "ipykernel>=7.2.0",
     "ipython>=9.14.1",
+    "ipywidgets>=8.1.8",
 ]
